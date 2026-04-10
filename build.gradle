@@ -17,6 +17,9 @@ repositories {
 loom {
 	splitEnvironmentSourceSets()
 
+	mixin {
+		defaultRefmapName = "zombified.refmap.json"
+	}
 	mods {
 		"zombified" {
 			sourceSet sourceSets.main
@@ -25,6 +28,7 @@ loom {
 	}
 
 }
+
 
 dependencies {
 	// To change the versions see the gradle.properties file

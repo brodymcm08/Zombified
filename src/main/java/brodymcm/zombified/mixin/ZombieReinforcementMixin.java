@@ -22,7 +22,6 @@ public class ZombieReinforcementMixin
         if(self.getAttribute(Attributes.SPAWN_REINFORCEMENTS_CHANCE) != null)
         {
             self.getAttribute(Attributes.SPAWN_REINFORCEMENTS_CHANCE).setBaseValue(1.0);
-            System.out.println("Reinforcement chance boosted!");
         }
     }
 }
