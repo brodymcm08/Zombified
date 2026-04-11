@@ -5,7 +5,8 @@
 	"mixins": [
 		"ExampleMixin",
 		"ZombieReinforcementMixin",
-		"ZombieBuffsMixin"
+		"ZombieBuffsMixin",
+		"MobAccessor"
 	],
 	"injectors": {
 		"defaultRequire": 1
